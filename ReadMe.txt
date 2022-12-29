@@ -81,3 +81,15 @@
 
 
                                               翔泳有限公司
+
+
+## Install postgresal on debian
+
+```bash
+    sudo apt install postgresql postgresql-client
+```
+
+postgresal client
+```
+pip install pgcli
+```
