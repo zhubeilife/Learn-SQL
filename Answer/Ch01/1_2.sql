@@ -1,6 +1,7 @@
 -- [PostgreSQL] [MySQL]
 ALTER TABLE Addressbook ADD COLUMN postal_code CHAR(8) NOT NULL;
 
+ALTER TABLE Addressbook ADD postoal_code CHAR(8) NOT NULL;
 
 -- [Oracle]
 ALTER TABLE Addressbook ADD (postal_code CHAR(8)) NOT NULL;
@@ -11,11 +12,11 @@ ALTER TABLE Addressbook ADD postal_code CHAR(8) NOT NULL;
 
 
 /*
- [DB2] ÎÞ·¨Ìí¼Ó¡£
- ÔÚDB2ÖÐ£¬Èç¹ûÒªÎªÌí¼ÓµÄÁÐÉè¶¨NOT NULLÔ¼Êø£¬
- ÐèÒªÏñÏÂÃæÕâÑùÖ¸¶¨Ä¬ÈÏÖµ£¬»òÕßÉ¾³ýNOT NULLÔ¼Êø£¬
- ·ñÔò¾ÍÎÞ·¨Ìí¼ÓÐÂÁÐ¡£
+ [DB2] ï¿½Þ·ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½
+ ï¿½ï¿½DB2ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ÒªÎªï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½è¶¨NOT NULLÔ¼ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ä¬ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½NOT NULLÔ¼ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½
 
 */
--- [DB2 ÐÞÕý°æ]
+-- [DB2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 ALTER TABLE Addressbook ADD COLUMN postal_code CHAR(8) NOT NULL DEFAULT '0000-000';

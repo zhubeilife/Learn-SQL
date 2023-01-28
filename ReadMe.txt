@@ -108,3 +108,9 @@ https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database
 https://www.cybertec-postgresql.com/en/postgresql-on-wsl2-for-windows-install-and-setup/
 
 mysql: https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/
+
+## install mysql server on mac using brew
+
+```bash
+brew install mysql
+```
