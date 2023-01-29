@@ -1,4 +1,4 @@
---MySQL
+-- MySQL
 -- DML:插入数据
 START TRANSACTION;
 INSERT INTO Product VALUES ('0001', 'T恤' ,'衣服', 1000, 500, '2009-09-20');
